@@ -1,0 +1,77 @@
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+header>p {
+  font-size: 14px;
+}
+
+main {
+  padding: 20px;
+}
+
+main>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+main>div>input {
+  outline: unset;
+  width: 100%;
+  font-size: 24px;
+  background-color: white;
+  color: #202021;
+  border: 1px solid #575767;
+}
+
+main>p {
+  text-align: center;
+}
+
+button {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+.dark-mode main {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark-mode header {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode main>div>input {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Toggle CSS */
+.react-toggle {
+  position: absolute;
+  right: 10px;
+}
+
+hr {
+  margin: 0;
+  color: #575767;
+}
+
+.incomplete,
+.completed {
+  font-size: 16px;
+}
+
+.incomplete {
+  color: #575767;
+}
+
+.completed {
+  color: #B9B9BE;
+}
